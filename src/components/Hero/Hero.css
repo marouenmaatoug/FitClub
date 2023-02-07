@@ -1,0 +1,166 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+.left-h {
+    padding: 2rem;
+    padding-top: 1.5rem;
+    flex: 3;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.header-menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: white;
+}
+.right-h {
+    flex: 1;
+    position: relative;
+    background-color: var(--orange);
+}
+.the-best-ad {
+    margin-top: 4rem;
+    background-color: #363d42;
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 20px 13px;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.the-best-ad > span {
+    z-index: 2;
+}
+.the-best-ad > div {
+    position: absolute;
+    left: 8px;
+    width: 5.4rem;
+    height: 80%;
+    background-color: var(--orange);
+    border-radius: 4rem;
+    z-index: 1;
+}
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: white;
+    text-overflow: inherit;
+}
+.hero-text > div:nth-of-type(3) {
+    font-size: 1.3rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    width: 80%;
+    text-transform: none;
+}
+.figures {
+    display: flex;
+    gap: 2rem;
+}
+.figures > div {
+    display: flex;
+    flex-direction: column;
+}
+.figures > div > span:nth-of-type(1) {
+    color: white;
+    font-size: 2rem;
+}
+.figures > div > span:nth-of-type(2) {
+    color: var(--gray);
+    text-transform: uppercase;
+}
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    font-weight: normal;
+}
+.hero-buttons > :nth-child(1) {
+    background-color: var(--orange);
+    color: white;
+    width: 8rem;
+}
+.hero-buttons > :nth-child(2) {
+    background-color: transparent;
+    color: white;
+    border: 2px solid var(--orange);
+    width: 8rem;
+}
+.right-h > .btn {
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    color: black;
+}
+.heart-rate {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: start;
+    background-color: var(--darkGrey);
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 5px;
+    position: absolute;
+    top: 7rem;
+    right: 4rem;
+}
+.heart-rate > img {
+    font-size: 2rem;
+}
+.heart-rate > :nth-child(2) {
+    color: var(--gray);
+}
+.heart-rate > :nth-child(3) {
+    color: white;
+    font-size: 1.5rem;
+}
+.hero-image {
+    position: absolute;
+    top: 10rem;
+    right: 8rem;
+    width: 23rem;
+}
+.hero-image-back {
+    position: absolute;
+    top: 4rem;
+    right: 20rem;
+    z-index: -1;
+    width: 15rem;
+}
+.calories {
+    display: flex;
+    gap: 2rem;
+    background-color: var(--caloryCard);
+    border-radius: 5px;
+    padding: 1rem;
+    position: absolute;
+    top: 32rem;
+    right: 33rem;
+    width: fit-content;
+}
+.calories > img {
+    width: 3rem;
+}
+.calories > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 8rem;
+}
+.calories > div > :nth-child(1) {
+    color: var(--gray);
+}
+.calories > div > :nth-child(2) {
+    color: white;
+    font-size: 1.5rem;
+}

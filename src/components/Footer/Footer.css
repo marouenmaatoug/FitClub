@@ -25,3 +25,37 @@
 .logo-f > img {
     width: 10rem;
 }
+.blur-f1 {
+    width: 26rem;
+    height: 12rem;
+    bottom: 0;
+    right: 15%;
+    background: red;
+    filter: blur(200px);
+    position: absolute;
+    /* background: rgba(253, 120, 43, 0.69); */
+    border-radius: 50%;
+    z-index: -9;
+}
+.blur-f1 {
+    width: 26rem;
+    height: 12rem;
+    bottom: 0;
+    right: 15%;
+    background: red;
+    filter: blur(200px);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -9;
+}
+.blur-f2 {
+    width: 30rem;
+    height: 12rem;
+    bottom: 0;
+    left: 15%;
+    background: rgba(253, 120, 43, 0.69);
+    filter: blur(200px);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -9;
+}
